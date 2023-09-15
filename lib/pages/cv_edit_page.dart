@@ -66,7 +66,7 @@ class _EditCVState extends State<EditCV> {
                             width: 1
                         ),
                       ),
-                    prefixIcon: Icon(Icons.person),
+                    prefixIcon: Icon(Icons.person, size: 18,),
                     labelText: 'Full Name',
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(20.0),
@@ -90,6 +90,7 @@ class _EditCVState extends State<EditCV> {
                             width: 1
                         ),
                       ),
+                      prefixIcon: Icon(Icons.account_tree, size: 18,),
                       border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(20.0),
                     borderSide: BorderSide(
@@ -103,6 +104,8 @@ class _EditCVState extends State<EditCV> {
                   controller: githubHandleController,
                   decoration: InputDecoration(labelText: 'GitHub Handle',
                       contentPadding: EdgeInsets.all(8),
+                      prefixIcon: Icon(Icons.folder,
+                      size: 18,),
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(20.0),
                         borderSide: BorderSide(
